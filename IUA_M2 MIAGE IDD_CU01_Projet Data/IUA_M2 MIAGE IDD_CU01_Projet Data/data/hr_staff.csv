@@ -1,9 +1,0 @@
-﻿staff_id,staff_name,role,department_code,cost_center,active_flag
-STA0001,Agent 1,Gestionnaire de scolarité,INFO,CC-INFO,1
-STA0002,Agent 2,Gestionnaire de scolarité,FIN,CC-FIN,1
-STA0003,Agent 3,Gestionnaire de scolarité,RH,CC-RH,1
-STA0004,Agent 4,Gestionnaire de scolarité,MKT,CC-MKT,1
-STA0005,Agent 5,Agent finance,INFO,CC-INFO,1
-STA0006,Agent 6,Agent finance,FIN,CC-FIN,1
-STA0007,Agent 7,Agent finance,RH,CC-RH,1
-STA0008,Agent 8,Agent finance,MKT,CC-MKT,1

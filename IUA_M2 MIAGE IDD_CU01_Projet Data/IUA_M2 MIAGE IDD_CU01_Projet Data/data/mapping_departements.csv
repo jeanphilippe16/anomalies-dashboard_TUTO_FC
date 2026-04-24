@@ -1,6 +1,0 @@
-﻿department_code,expected_cost_center,business_domain,comment
-INFO,CC-INFO,Informatique Décisionnelle,Conforme
-FIN,CC-FIN,Finance d’Entreprise,Conforme
-RH,CC-RH,Ressources Humaines,Conforme
-MKT,CC-MKT,Marketing Digital,Conforme
-OPS,CC-OPS,Valeur non prévue,À corriger

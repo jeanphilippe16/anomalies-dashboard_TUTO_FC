@@ -1,8 +1,0 @@
-﻿test_case_id,scenario,input_condition,expected_result,status
-TC-01,Doublon d'inscription par national_id,Présence de 2 lignes avec le même national_id,Alerte HIGH créée,OK
-TC-02,Paiement payé sans reçu,payment_status=PAID et receipt_id vide,Alerte HIGH créée,OK
-TC-03,Note manquante,grade nul,Alerte MEDIUM créée,OK
-TC-04,Note incohérente,grade > 20,Alerte HIGH créée,OK
-TC-05,Écart centre de coût,department_code et cost_center incompatibles,Alerte HIGH créée,OK
-TC-06,Transaction inhabituelle,montant > seuil élevé ou duplicat de transaction,Alerte CRITICAL créée,OK
-TC-07,Paiement orphelin,student_id absent de la base scolarité,Alerte HIGH créée,OK
