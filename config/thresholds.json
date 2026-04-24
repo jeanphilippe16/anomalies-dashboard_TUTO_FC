@@ -1,0 +1,11 @@
+{
+  "high_amount_threshold": 1000000,
+  "duplicate_transaction_same_day_count": 2,
+  "missing_grade_severity": "MEDIUM",
+  "invalid_grade_severity": "HIGH",
+  "paid_without_receipt_severity": "HIGH",
+  "duplicate_registration_severity": "HIGH",
+  "orphan_payment_severity": "HIGH",
+  "cross_system_gap_severity": "HIGH",
+  "unusual_transaction_severity": "CRITICAL"
+}
