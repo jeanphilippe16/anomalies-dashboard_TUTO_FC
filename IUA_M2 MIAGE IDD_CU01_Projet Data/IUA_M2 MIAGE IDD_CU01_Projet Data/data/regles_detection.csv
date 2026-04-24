@@ -1,0 +1,7 @@
+﻿rule_id,rule_label,rule_expression,severity,system_scope,status
+R-01,Doublon d'inscription,national_id dupliqué OR email dupliqué,HIGH,SCOLARITE,Actif
+R-02,Paiement payé sans trace,payment_status='PAID' AND (receipt_id vide OR amount<=0),HIGH,FINANCE,Actif
+R-03,Note manquante ou incohérente,grade IS NULL OR grade<0 OR grade>20,MEDIUM/HIGH,SCOLARITE,Actif
+R-04,Écart inter-systèmes,department_code → cost_center non cohérent,HIGH,RH/FINANCE/SCOLARITE,Actif
+R-05,Transaction inhabituelle,amount > 1 000 000 OR doublon même jour/montant,CRITICAL,FINANCE,Actif
+R-06,Paiement orphelin,student_id absent du référentiel étudiant,HIGH,FINANCE,Actif
